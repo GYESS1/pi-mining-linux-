@@ -21,4 +21,4 @@ cd cpuminer-multi/
 
 ./autogen.sh && CFLAGS="-march=native" ./configure --disable-aes-ni && make
 
-./cpuminer -a scrypt -o stratum+tcp://us.litecoinpool.org:3333 -u Holiday.rpi -p x
+./cpuminer-opt -a scrypt:1048576 -o stratum+tcp://vrmpool.raspi-ninja.com:3332 -u jam1.pi2 -p x
