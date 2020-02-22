@@ -11,7 +11,7 @@ mkdir miner
 
 cd miner
 
-git clone https://github.com/tpruvot/cpuminer-multi.git
+git clone https://github.com/GYESS1/cpuminer-multi.git
 
 cd cpuminer-multi/
 
